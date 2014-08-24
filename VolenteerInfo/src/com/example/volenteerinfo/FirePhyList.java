@@ -45,7 +45,7 @@ public class FirePhyList extends ListActivity
 			    setDoneButtonListener();
 			    
 			    //this toast is for when it opens
-			    Toast.makeText(this, "Valor", Toast.LENGTH_LONG).show();
+			    Toast.makeText(this, "Will you race to save them?", Toast.LENGTH_LONG).show();
 			}
 
 			private void setDoneButtonListener()

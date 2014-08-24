@@ -45,7 +45,7 @@ public class PolicePhyList extends ListActivity
 			    setDoneButtonListener();
 			    
 			    //this toast is for when it opens
-			    Toast.makeText(this, "Valor", Toast.LENGTH_LONG).show();
+			    Toast.makeText(this, "Will you train to become faster and stronger.", Toast.LENGTH_LONG).show();
 			}
 
 			private void setDoneButtonListener()

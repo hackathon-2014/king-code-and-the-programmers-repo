@@ -44,7 +44,7 @@ public class EmsPhyList extends ListActivity
 			    setDoneButtonListener();
 			    
 			    //this toast is for when it opens
-			    Toast.makeText(this, "Valor", Toast.LENGTH_LONG).show();
+			    Toast.makeText(this, "Will you train for them?", Toast.LENGTH_LONG).show();
 			}
 
 			private void setDoneButtonListener()

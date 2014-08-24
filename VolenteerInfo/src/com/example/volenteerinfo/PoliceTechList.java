@@ -45,7 +45,7 @@ public class PoliceTechList extends ListActivity
 			    setDoneButtonListener();
 			    
 			    //this toast is for when it opens
-			    Toast.makeText(this, "Valor", Toast.LENGTH_LONG).show();
+			    Toast.makeText(this, "Will you find them in the dark?", Toast.LENGTH_LONG).show();
 			}
 
 			private void setDoneButtonListener()

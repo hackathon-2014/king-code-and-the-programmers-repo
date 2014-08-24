@@ -44,7 +44,7 @@ public class FireMentalList extends ListActivity
 			    setDoneButtonListener();
 			    
 			    //this toast is for when it opens
-			    Toast.makeText(this, "Valor", Toast.LENGTH_LONG).show();
+			    Toast.makeText(this, "Will you run into the blaze?", Toast.LENGTH_LONG).show();
 			}
 
 			private void setDoneButtonListener()
