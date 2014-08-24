@@ -84,11 +84,11 @@ public class FireTrainingList extends ListActivity
 						{
 							case 0:	
 								Fire_Trainging_num = 1;
-								launchFirePhyPage();
+								launchFireMentalPage();
 									break;
 							case 1: 
 								Fire_Trainging_num = 2;
-								launchFirePhyPage();
+								launchFireTechPage();
 									break;
 							case 2: 
 								Fire_Trainging_num = 3;
@@ -105,6 +105,22 @@ public class FireTrainingList extends ListActivity
 		    	//Set up Intent
 		    	Intent FirePhyPage = new Intent(this, FirePhyList.class);
 		    	startActivity(FirePhyPage);
+		    	
+		    }//END launchDirectionsPage
+			
+			protected void launchFireTechPage()
+		    {
+		    	//Set up Intent
+		    	Intent FireTechPage = new Intent(this, FireTechList.class);
+		    	startActivity(FireTechPage);
+		    	
+		    }//END launchDirectionsPage
+			
+			protected void launchFireMentalPage()
+		    {
+		    	//Set up Intent
+		    	Intent FireMentalPage = new Intent(this, FireMentalList.class);
+		    	startActivity(FireMentalPage);
 		    	
 		    }//END launchDirectionsPage
 

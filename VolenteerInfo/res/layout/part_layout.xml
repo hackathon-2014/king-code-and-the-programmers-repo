@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="445dp"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/part_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/part_section_title"
+        android:textColor="#b70000"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/back" />
+ 
+    
+
+    <TextView
+        android:id="@+id/part_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/info_title"
+        android:layout_marginTop="15dp"
+        android:text="@string/empty" />
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/part_info"
+        android:layout_marginTop="51dp"
+        android:text="" />
+
+    
+
+</RelativeLayout>
+</ScrollView>

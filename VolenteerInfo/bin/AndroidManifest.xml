@@ -65,16 +65,7 @@
             </intent-filter>
         </activity>
         
-            <activity
-            android:name="com.example.volenteerinfo.EmsMentalList"
-            android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.VIEW" />
-
-                <category android:name="android.intent.category.DEFAULT" />
-            </intent-filter>
-        </activity>
-        
+         
              <activity
             android:name="com.example.volenteerinfo.FireMentalList"
             android:label="@string/app_name" >
@@ -95,9 +86,100 @@
             </intent-filter>
         </activity>
         
-               
-    </application>
-    
-  
+            <activity
+            android:name="com.example.volenteerinfo.FireTopic"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
 
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+               <activity
+            android:name="com.example.volenteerinfo.EmsMentalList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+               
+                 <activity
+            android:name="com.example.volenteerinfo.EmsPhyList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+                    <activity
+            android:name="com.example.volenteerinfo.EmsTechList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+           <activity
+            android:name="com.example.volenteerinfo.EmsTopic"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+               
+		 <activity
+            android:name="com.example.volenteerinfo.PoliceTechList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+		        
+		 <activity
+            android:name="com.example.volenteerinfo.PolicePhyList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+		        
+		 <activity
+            android:name="com.example.volenteerinfo.PoliceMentalList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+		        
+		 <activity
+            android:name="com.example.volenteerinfo.PoliceTopic"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+		 
+    </application>
 </manifest>

@@ -1,6 +1,7 @@
 package com.example.volenteerinfo;
 
 import android.app.ListActivity;
+import android.content.Intent;
 //import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -82,12 +83,15 @@ public class PoliceTrainingList extends ListActivity
 							{
 								case 0:	
 									Police_Trainging_num = 1;
+									launchPoliceMentalPage();
 										break;
 								case 1: 
 									Police_Trainging_num = 2;
+									launchPoliceTechPage();
 										break;
 								case 2: 
 									Police_Trainging_num = 3;
+									launchPolicePhyPage();
 										break;
 								
 							}
@@ -95,11 +99,27 @@ public class PoliceTrainingList extends ListActivity
 					}//END OnItemClickListener
 				);//END setOnItemClickListener
 			}//END setListClickListener
-//				protected void launchZombieTownPartsPage()
-//			    {
-//			    	//Set up Intent
-//			    	Intent ZombieTownPage = new Intent(this, ZombieTownParts.class);
-//			    	startActivity(ZombieTownPage);
-//			    	
-//			    }//END launchDirectionsPage
+			protected void launchPolicePhyPage()
+		    {
+		    	//Set up Intent
+		    	Intent PhyPage = new Intent(this, PolicePhyList.class);
+		    	startActivity(PhyPage);
+		    	
+		    }//END launchDirectionsPage
+			
+			protected void launchPoliceTechPage()
+		    {
+		    	//Set up Intent
+		    	Intent TechPage = new Intent(this, PoliceTechList.class);
+		    	startActivity(TechPage);
+		    	
+		    }//END launchDirectionsPage
+			
+			protected void launchPoliceMentalPage()
+		    {
+		    	//Set up Intent
+		    	Intent PoliceMentalPage = new Intent(this, PoliceMentalList.class);
+		    	startActivity(PoliceMentalPage);
+		    	
+		    }//END launchDirectionsPage
 }

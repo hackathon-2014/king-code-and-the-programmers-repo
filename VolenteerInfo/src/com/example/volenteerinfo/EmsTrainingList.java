@@ -1,7 +1,7 @@
 package com.example.volenteerinfo;
 
 import android.app.ListActivity;
-//import android.content.Intent;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -82,12 +82,15 @@ public class EmsTrainingList extends ListActivity
 							{
 								case 0:	
 									Ems_Trainging_num = 1;
+									launchEmsMentalPage();
 										break;
 								case 1: 
 									Ems_Trainging_num = 2;
+									launchEmsTechPage();
 										break;
 								case 2: 
 									Ems_Trainging_num = 3;
+									launchEmsPhyPage();
 										break;
 								
 							}
@@ -95,11 +98,27 @@ public class EmsTrainingList extends ListActivity
 					}//END OnItemClickListener
 				);//END setOnItemClickListener
 			}//END setListClickListener
-//				protected void launchEmsPhyPage()
-//			    {
-//			    	//Set up Intent
-//			    	Intent EmsPhy = new Intent(this, EmsPhyList.class);
-//			    	startActivity(EmsPhy);
-//			    	
-//			    }//END launchDirectionsPage
+			protected void launchEmsPhyPage()
+		    {
+		    	//Set up Intent
+		    	Intent EmsPhyPage = new Intent(this, EmsPhyList.class);
+		    	startActivity(EmsPhyPage);
+		    	
+		    }//END launchDirectionsPage
+			
+			protected void launchEmsTechPage()
+		    {
+		    	//Set up Intent
+		    	Intent EmsTechPage = new Intent(this, EmsTechList.class);
+		    	startActivity(EmsTechPage);
+		    	
+		    }//END launchDirectionsPage
+			
+			protected void launchEmsMentalPage()
+		    {
+		    	//Set up Intent
+		    	Intent EmsMentalPage = new Intent(this, EmsMentalList.class);
+		    	startActivity(EmsMentalPage);
+		    	
+		    }//END launchDirectionsPage
 }

@@ -7,5 +7,37 @@
     <string name="welcome">Welcome!</string>
     <string name="part_intro">hello test part intro</string>
     <string name="back">Back</string>
+    <string name="part_section_1">Info sec</string>
+    <string name="empty"> </string>
+    <string name="part_section_title">TITLE HERE</string>
+    
+    <string name="Fire_Mental_1">Are you action-oriented?</string>
+    <string name="Fire_Mental_2">Are you obsessed with high performance?</string>
+    <string name="Fire_Mental_3">Do you have to be in control of situations?</string>
+    <string name="Fire_Phys_1">How are you with stairs?</string>
+    <string name="Fire_Phys_2">Can you climb tall ladders carrying an additional 75 pounds?</string>
+    <string name="Fire_Phys_3">Are you good at breaking through doors or walls?</string>
+    <string name="Fire_Tech_1">Do you work well under pressure?</string>
+    <string name="Fire_Tech_2">Can you follow commands and protocol to the letter?</string>
+    <string name="Fire_Tech_3">Do you learn quickly?</string>
+    
+    <string name="Police_Tech_1">Do you have experience with firearms?</string>
+    <string name="Police_Tech_2">Can you follow directions without question?</string>
+    <string name="Police_Tech_3">Can you operate a vehicle at high speeds safely?</string>
+    <string name="Police_Phys_1">Can you run, jump, climb to get around and over obstacles?</string>
+    <string name="Police_Phys_2">Are you in good physical condition?</string>
+    <string name="Police_Phys_3">Can you physically handle harsh environments?</string>
+	<string name="Police_Mental_1">Can you keep your nerve in the face of certain danger?</string>
+	<string name="Police_Mental_2">Do you have a strong faith in the justice system?</string>
+	<string name="Police_Mental_3">Are you able to react quickly and calmly in tough situations?</string>
 
+	<string name="Ems_Tech_1">Can you understand medical terminology?</string>
+    <string name="Ems_Tech_2">Are you comfortable around needles?</string>
+    <string name="Ems_Tech_3">Do you understand hazard controls?</string>
+    <string name="Ems_Phys_1">Can you lift heavy objects?</string>
+    <string name="Ems_Phys_2">Are you able to respond quickly?</string>
+    <string name="Ems_Phys_3">Can you handle delicate instruments in cramped spaces?</string>
+	<string name="Ems_Mental_1">Do you have a strong desire to help people?</string>
+	<string name="Ems_Mental_2">Can you handle the sight of blood?</string>
+	<string name="Ems_Mental_3">Are you willing to work long hours and swing shifts?</string>
 </resources>

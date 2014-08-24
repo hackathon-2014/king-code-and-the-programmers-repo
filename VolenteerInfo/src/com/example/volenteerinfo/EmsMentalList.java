@@ -1,7 +1,7 @@
 package com.example.volenteerinfo;
 
 import android.app.ListActivity;
-//import android.content.Intent;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
@@ -82,12 +82,15 @@ public class EmsMentalList extends ListActivity
 							{
 								case 0:	
 									Ems_M_num = 1;
+									launchTopic();
 										break;
 								case 1: 
 									Ems_M_num = 2;
+									launchTopic();
 										break;
 								case 2: 
 									Ems_M_num = 3;
+									launchTopic();
 										break;
 								
 							}
@@ -95,11 +98,11 @@ public class EmsMentalList extends ListActivity
 					}//END OnItemClickListener
 				);//END setOnItemClickListener
 			}//END setListClickListener
-//				protected void launchZombieTownPartsPage()
-//			    {
-//			    	//Set up Intent
-//			    	Intent ZombieTownPage = new Intent(this, ZombieTownParts.class);
-//			    	startActivity(ZombieTownPage);
-//			    	
-//			    }//END launchDirectionsPage
+			protected void launchTopic()
+		    {
+		    	//Set up Intent
+		    	Intent launchTopic = new Intent(this, EmsTopic.class);
+		    	startActivity(launchTopic);
+		    	
+		    }//END launchDirectionsPage
 }

@@ -1,6 +1,7 @@
 package com.example.volenteerinfo;
 
 import android.app.ListActivity;
+import android.content.Intent;
 //import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -82,12 +83,15 @@ public class FirePhyList extends ListActivity
 							{
 								case 0:	
 									Fire_P_num = 1;
+									launchFireTopic();
 										break;
 								case 1: 
 									Fire_P_num = 2;
+									launchFireTopic();
 										break;
 								case 2: 
 									Fire_P_num = 3;
+									launchFireTopic();
 										break;
 								
 							}
@@ -95,11 +99,11 @@ public class FirePhyList extends ListActivity
 					}//END OnItemClickListener
 				);//END setOnItemClickListener
 			}//END setListClickListener
-//				protected void launchZombieTownPartsPage()
-//			    {
-//			    	//Set up Intent
-//			    	Intent ZombieTownPage = new Intent(this, ZombieTownParts.class);
-//			    	startActivity(ZombieTownPage);
-//			    	
-//			    }//END launchDirectionsPage
+			protected void launchFireTopic()
+		    {
+		    	//Set up Intent
+		    	Intent launchFireTopic = new Intent(this, FireTopic.class);
+		    	startActivity(launchFireTopic);
+		    	
+		    }//END launchDirectionsPage
 }
